@@ -2,3 +2,5 @@
 #include <string> //menyertakan library string
 using namespace std;
 
+class Mahasiswa { //membuat class Mahasiswa
+
