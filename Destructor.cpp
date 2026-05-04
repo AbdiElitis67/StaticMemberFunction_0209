@@ -1,7 +1,9 @@
+-- Destructor --
 #include <iostream>
 using namespace std;
 
-class angka {
+class angka
+{
 private:
     int *arr;
     int panjang;
@@ -18,7 +20,6 @@ angka::angka(int i){ // Constructor
     arr = new int[i];
     isiData();
 }
-
 
 angka::~angka(){ // Destructor
     cout << endl;
